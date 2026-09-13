@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SistemManajemenTugasKuliah2 {
+public class Pertemuan3_PboPrak {
 
     String namaTugas;
     String mataKuliah;
     String deadline;
     String status;
 
-    public SistemManajemenTugasKuliah2(String namaTugas, String mataKuliah, String deadline, String status) {
+    public Pertemuan3_PboPrak(String namaTugas, String mataKuliah, String deadline, String status) {
         this.namaTugas = namaTugas;
         this.mataKuliah = mataKuliah;
         this.deadline = deadline;
@@ -27,7 +27,7 @@ public class SistemManajemenTugasKuliah2 {
 
         Scanner input = new Scanner(System.in);
 
-        ArrayList<SistemManajemenTugasKuliah2> daftarTugas = new ArrayList<>();
+        ArrayList<Pertemuan3_PboPrak> daftarTugas = new ArrayList<>();
 
         int pilihan;
 
@@ -80,8 +80,8 @@ public class SistemManajemenTugasKuliah2 {
                     status = "Belum Dikerjakan";
                 }
 
-                SistemManajemenTugasKuliah2 tugas =
-                        new SistemManajemenTugasKuliah2(
+                Pertemuan3_PboPrak tugas =
+                        new Pertemuan3_PboPrak(
                                 namaTugas,
                                 mataKuliah,
                                 deadline,
