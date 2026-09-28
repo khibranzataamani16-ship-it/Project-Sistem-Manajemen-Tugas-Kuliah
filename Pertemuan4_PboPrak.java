@@ -1,4 +1,4 @@
-package com.mycompany.pertemuan4_pboprak;
+package com.mycompany.project_sistemmanajementugaskuliah;
 
 import java.util.ArrayList;
 import java.util.Scanner;
